@@ -1,104 +1,92 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <script src="./dowodnowy_files/sw.js.pobrane"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="viewport" content="width=device-width">
-  <title>mObywatel 2.0</title>
-  <link rel="shortcut icon" href="https://v2dejm65o0n5id4xylvc.ct8.pl/ObywatelekHUB_admin_cYrli2ky7g/mobywatellogo.svg" type="image/x-icon">
-  <meta name="theme-color" content="#fff">
-  <meta name="next-head-count" content="5">
-  <link rel="preload" href="./dowodnowy_files/main.css" as="style">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <link rel="stylesheet" href="./dowodnowy_files/main.css" data-n-g="">
-  <link href="./dowodnowy_files/css" rel="stylesheet">
-  <link rel="manifest" href="https://v2dejm65o0n5id4xylvc.ct8.pl/manifest.json">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="./dowodnowy_files/sw.js.pobrane"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>mObywatel 2.0</title>
+    <link rel="shortcut icon" href="https://v2dejm65o0n5id4xylvc.ct8.pl/ObywatelekHUB_admin_cYrli2ky7g/mobywatellogo.svg" type="image/x-icon">
+    <meta name="theme-color" content="#fff">
+    <link rel="preload" href="./dowodnowy_files/main.css" as="style">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="./dowodnowy_files/main.css" data-n-g="">
+    <link href="./dowodnowy_files/css" rel="stylesheet">
+    <link rel="manifest" href="https://v2dejm65o0n5id4xylvc.ct8.pl/manifest.json">
+    <style>
+      body { overscroll-behavior: contain; }
+      .navbar { overflow: hidden; position: fixed; bottom: 0; width: 100%; z-index: 9999; }
+      header { position: fixed; top: 0; width: 100%; z-index: 9999; }
+    </style>
+    <link rel="stylesheet" href="./dowodnowy_files/dowodnowy.css">
+    <script src="./dowodnowy_files/jquery-3.6.0.min.js.pobrane"></script>
+    <style>
+      @media screen and (orientation: portrait) {
+        body { transform: rotate(0deg); }
+      }
+    </style>
+  </head>
 
-  <noscript data-n-css=""></noscript>
-  <style>
-    /* istniejące style bez zmian… */
-    body { overscroll-behavior: contain; }
-    .navbar { overflow: hidden; position: fixed; bottom: 0; width: 100%; z-index: 9999; }
-    header { position: fixed; top: 0; width: 100%; z-index: 9999; }
-    /* …pozostałe style… */
-  </style>
-  <link rel="stylesheet" href="./dowodnowy_files/dowodnowy.css">
-  <script src="./dowodnowy_files/jquery-3.6.0.min.js.pobrane"></script>
-  <style>
-    @media screen and (orientation: portrait) {
-      body { transform: rotate(0deg); }
-    }
-  </style>
-  <link id="chromealerabat-link" rel="stylesheet" type="text/css" href="chrome-extension://dacdinoicboceafielngnmjjplncljhj/content.css">
-</head>
-<body>
-  <header>
-    <a href="dashboard.html"><img src="./dowodnowy_files/pozdro.svg" alt="leftarrow"></a>
-    <span style="font-family: 'Inter'; font-weight: 900; position: relative; left: -6%;">mDowód</span>
-    <img style="width: 25px; height: 25px;" src="./dowodnowy_files/madziamojakotka123.svg" alt="">
-  </header>
+  <body>
+    <header>
+      <a href="dashboard.html"><img src="./dowodnowy_files/pozdro.svg" alt="leftarrow"></a>
+      <span style="font-family: 'Inter'; font-weight: 900; position: relative; left: -6%;">mDowód</span>
+      <img style="width: 25px; height: 25px;" src="./dowodnowy_files/madziamojakotka123.svg" alt="">
+    </header>
 
-  <div class="info-section" id="info-section" style="margin: 0 20px;">
-    <!-- …bez zmian… -->
-  </div>
-  <div class="info-section blue" id="blue-section" style="display: none; margin: 0 20px;">
-    <!-- …bez zmian… -->
-  </div>
+    <div class="info-section" id="info-section" style="margin: 0 20px;">
+      <!-- sekcja info -->
+    </div>
 
-  <p class="czas">Czas: 20:49:19 3.03.2025</p>
-  <script src="./dowodnowy_files/timenew.js.pobrane"></script>
+    <div class="info-section blue" id="blue-section" style="display: none; margin: 0 20px;">
+      <!-- sekcja blue -->
+    </div>
 
-  <main>
-    <section id="lew">
-      <!-- Tutaj zmieniony tylko src obrazka na bezpośrednią nazwę pliku: -->
-      <img src="att.fa8X01ypbMm-APeWuU6ejgyY3mtEjL3S4wAu5PCUUeo.jpg"
-           class="object-contain w-full rounded-lg photo"
-           style="margin: 0;"
-           alt="Zdjęcie">
+    <p class="czas">Czas: 20:49:19 3.03.2025</p>
+    <script src="./dowodnowy_files/timenew.js.pobrane"></script>
 
-      <br>
-      <img src="./dowodnowy_files/flaga.gif" alt="flaga" id="flaga" style="margin: 0;">
-      <div id="rzecz">
-        <img src="./dowodnowy_files/godlo.gif" alt="godlo" id="godlo">
-        <p>Rzeczpospolita<br>Polska</p>
-      </div>
+    <main>
+      <section id="lew">
+        <!-- Zmieniono tylko tę linię poniżej -->
+        <img src="att.fa8X01ypbMm-APeWuU6ejgyY3mtEjL3S4wAu5PCUUeo.jpg"
+             class="object-contain w-full rounded-lg photo"
+             style="margin: 0;"
+             alt="Zdjęcie">
+
+        <br>
+        <img src="./dowodnowy_files/flaga.gif" alt="flaga" id="flaga" style="margin: 0;">
+        <div id="rzecz">
+          <img src="./dowodnowy_files/godlo.gif" alt="godlo" id="godlo">
+          <p>Rzeczpospolita<br>Polska</p>
+        </div>
+      </section>
+
+      <section id="praw">
+        <p class="main">DOMINIK</p>
+        <p class="sub">Imię (Imiona)</p><br>
+        <p class="main">SZULIN</p>
+        <p class="sub">Nazwisko</p><br>
+        <p>POLSKIE</p>
+        <p class="sub">Obywatelstwo</p><br>
+        <p class="main">03.05.2006</p>
+        <p class="sub">Data urodzenia</p><br>
+        <p class="main">06250300756</p>
+        <p class="sub">Numer PESEL</p><br>
+      </section>
+    </main>
+
+    <section id="bottom">
+      <img src="./dowodnowy_files/checkmark.svg" alt="checkmark">
+      <p>Dokument ważny</p>
     </section>
 
-    <section id="praw">
-      <!-- …pozostałe dane bez zmian… -->
-      <p class="main">DOMINIK</p>
-      <p class="sub">Imię (Imiona)</p><br>
-      <p class="main">SZULIN</p>
-      <p class="sub">Nazwisko</p><br>
-      <p>POLSKIE</p>
-      <p class="sub">Obywatelstwo</p><br>
-      <p class="main">03.05.2006</p>
-      <p class="sub">Data urodzenia</p><br>
-      <p class="main">06250300756</p>
-      <p class="sub">Numer PESEL</p><br>
-    </section>
-  </main>
+    <a class="buto" style="cursor: pointer; display: flex; align-items: center; padding: 40px 20px; border-radius: 10px; background-color: white; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+      <img src="./dowodnowy_files/checkbo.png" alt="checkbox">
+      <p style="margin-left: 10px; font-weight: bold;">Potwierdź swoje dane</p>
+      <img src="./dowodnowy_files/arrow.svg" alt="arrow" id="arrow">
+    </a>
 
-  <section id="bottom">
-    <img src="./dowodnowy_files/checkmark.svg" alt="checkmark">
-    <p>Dokument ważny</p>
-  </section>
-
-  <!-- …reszta dokumentu bez zmian… -->
-  <a class="buto" style="cursor: pointer; display: flex; align-items: center; padding: 40px 20px; border-radius: 10px; background-color: white; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <img src="./dowodnowy_files/checkbo.png" alt="checkbox">
-    <p style="margin-left: 10px; font-weight: bold;">Potwierdź swoje dane</p>
-    <img src="./dowodnowy_files/arrow.svg" alt="arrow" id="arrow">
-  </a>
-
-  <!-- …i tak dalej aż do końca, wszystkie skrypty i style pozostają bez zmian… -->
-
-  <script src="./dowodnowy_files/rozwijka.js.pobrane"></script>
-  <script src="./dowodnowy_files/wybor.js.pobrane"></script>
-  <script src="./dowodnowy_files/scale.js.pobrane"></script>
-  <script>
-    // Istniejące skrypty do obsługi sekcji info i innych elementów
-  </script>
-</body>
+    <script src="./dowodnowy_files/rozwijka.js.pobrane"></script>
+    <script src="./dowodnowy_files/wybor.js.pobrane"></script>
+    <script src="./dowodnowy_files/scale.js.pobrane"></script>
+  </body>
 </html>
